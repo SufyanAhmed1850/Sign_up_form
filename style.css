@@ -7,7 +7,7 @@
 }
 body{
     background-image: url(./assets/back2.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 header li,header a,header button {
@@ -56,7 +56,7 @@ fieldset{
 .fom{
     max-width: 40rem;
     min-width: 40rem;
-    margin: 10px auto; 
+    margin: 50px auto 80px auto; 
 }
 .fom legend{
     margin: auto;
