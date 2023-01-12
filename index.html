@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./assets/logo.png" alt="logo" width="80px">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <button class="cta">Contact</button>
+    </header>
+    <div class="fom">
+        <fieldset>
+            <legend>
+                <img src="./assets/leg.png" alt="" width="80px">
+            </legend>
+            <div class="top_txt">
+                <h1>Hello!</h1>
+                <p>Please signup to continue</p>
+            </div>
+            <div class="cont">
+                <div class="incont">
+                    <label for="1name">First Name
+                        <input class="inp-field" type="text" placeholder="Enter first name" id="1name">
+                    </label>
+                    <label for="3name">Middle Name
+                        <input class="inp-field" type="text" placeholder="Enter middle name" id="3name">
+                    </label>
+                </div>
+                <div class="incont">
+                    <label for="2name">Last Name<br>
+                        <input class="inp-field" type="text" placeholder="Enter last name" id="2name">
+                    </label>
+                    <label for="country">Country
+                        <select class="drop" id="country">
+                            <option value="#" selected disabled>Select your Country</option>
+                            <option value="#">Pakistan</option>
+                            <option value="#">Bangladesh</option>
+                            <option value="#">Saudi Arabia</option>
+                            <option value="#">United Arab Emirates</option>
+                            <option value="#">Qatar</option>
+                            <option value="#">Iran</option>
+                            <option value="#">Iraq</option>
+                            <option value="#">Turkey</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="incont">
+                    <label for="email">Email Address
+                        <input class="inp-field" type="email" placeholder="Enter email address" id="email">
+                    </label>
+                    <label for="phone">Phone Number
+                        <input class="inp-field" type="number" placeholder="Enter phone number" id="phone">
+                    </label>
+                </div>
+                <div class="incont">
+                    <label for="pass">Password
+                        <input class="inp-field" type="password" placeholder="Enter password" id="pass">
+                    </label>
+                    <label for="confirm">Confirm Password
+                        <input class="inp-field" type="password" placeholder="Confirm password" id="confirm">
+                    </label>
+                </div>
+                <div class="incont-center">
+                    <p>Gender:</p>
+                    <label for="male">
+                        <input type="radio" id="male" name="gender">Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" id="female" name="gender">Female
+                    </label>
+                    <label for="custom">
+                        <input type="radio" id="custom" name="gender">Custom
+                    </label>
+                </div>
+                <div class="gree">
+                    <p><input class="chk" type="checkbox"><a class="s2a" href="#">Iagree to the terms of service.</a>
+                    </p>
+                    <a href="#"><button type="button" class="sign-up-btn">Sign up</button></a>
+                    <p class="already">Already have an account. <a class="sin" href="#">Sign in</a></p>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</body>
+
+</html>
